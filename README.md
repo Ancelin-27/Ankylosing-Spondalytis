@@ -1,39 +1,45 @@
-# Guessing Number 
+# Ankylosing Spondylitis Prediction Using Decision Tree Classifier
 
-## Description
+## Project Description
+This project predicts **Ankylosing Spondylitis (AS)**, a chronic inflammatory disease affecting the spine and joints, using a **Decision Tree Classification** algorithm. The model analyzes patient information such as age, gender, symptoms, and clinical indicators to determine the likelihood of the disease. This helps support early diagnosis and informed medical decision-making.
 
-The Guessing Number Game is a simple Java console application where the player attempts to guess a secret number selected by the program. The game provides hints after each guess, indicating whether the player should guess a higher or lower number. The game continues until the correct number is guessed.
-
-## Features
-
-- User-friendly console interaction
-- Provides hints to guide the player
-- Uses a loop to allow multiple attempts
-- Displays a success message when the correct number is guessed
-- Simple and interactive gameplay
+## Objectives
+- Predict the presence of Ankylosing Spondylitis in patients.
+- Identify important factors associated with the disease.
+- Apply machine learning techniques for healthcare prediction.
+- Visualize the decision-making process using a Decision Tree.
 
 ## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
 
-- Java
-- Scanner Class for user input
-- While Loop for repeated guessing
-- If-Else Statements for decision making
+## Features
+- Data preprocessing and cleaning
+- Decision Tree model training and testing
+- Disease prediction based on patient data
+- Performance evaluation using classification metrics
+- Decision Tree visualization
 
-## How It Works
+## Workflow
+1. Load and preprocess the dataset.
+2. Split the data into training and testing sets.
+3. Train the Decision Tree Classifier.
+4. Make predictions on test data.
+5. Evaluate model performance.
+6. Visualize the Decision Tree.
 
-1. The program stores a secret number.
-2. The user enters a guess between 1 and 50.
-3. If the guess is too low, the program displays **"Guess it Higher!!"**.
-4. If the guess is too high, the program displays **"Guess it Lower!!"**.
-5. When the correct number is guessed, the program displays **"You got it!!"** and ends the game.
+## Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
 
-## Learning Outcomes
+## Outcome
+The model classifies patients as having or not having Ankylosing Spondylitis based on medical attributes. This project demonstrates the application of machine learning in healthcare for disease prediction and early diagnosis.
 
-- Understanding Java basics
-- Working with user input
-- Using loops and conditional statements
-- Building simple interactive applications
-
-## Conclusion
-
-The Guessing Number Game is a beginner-friendly Java project that helps learners understand core programming concepts such as user input, loops, and decision-making while creating an engaging console-based application.
+## Author
+Ancelin Bessie
